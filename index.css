@@ -1,0 +1,78 @@
+body{
+    background-image:url("https://img.freepik.com/premium-vector/3d-background-products-display-podium-scene-with-yellow-leaf-geometric-platform-background-vector-3d-render-with-podium-stand-show-cosmetic-product-stage-showcase-pedestal-display-yellow_412828-633.jpg?size=626&ext=jpg&ga=GA1.1.1317566449.1693807509&semt=ais");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+   color:darkblue;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: black;
+    color:white;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: red;
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background:coral;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: aqua;
+}
+
+input[type="reset"]:hover{
+    background: aqua;
+}
+
+button{
+    background: black;
+    color: aqua;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+button:hover{
+    background:red ;
+}
